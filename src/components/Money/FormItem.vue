@@ -19,7 +19,7 @@ export default class FormItem extends Vue {
   @Prop({default:''}) readonly value!:string;
   @Prop({required:true}) filedName!:string ;
   @Prop() placeholder!:string ;
-  onValueChanged(value:string,oldValue:string){
+  onValueChanged(value:string){
     this.$emit('update:value',value)
   }
 }
