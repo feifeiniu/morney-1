@@ -45,7 +45,7 @@ export default class Money extends Vue {
 </script>
 
 <style lang="scss">
-.layout-content {
+ .layout-content {
   display: flex;
   flex-direction: column-reverse;
 }
